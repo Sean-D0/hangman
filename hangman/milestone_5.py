@@ -53,7 +53,7 @@ class hangman:
              if game.num_lives == 0:
                  print("You Lost!")
                  break
-             ## checks number of letter guessed against the word from the word_list.
+             ## checks number of letter guessed against the number of letters in the word from the word_list.
              elif game.num_letters > 0:
                   game.ask_for_input()
             ## if lives remain and all letters are guess in the word randomly choosen from word_list then game is won. 
